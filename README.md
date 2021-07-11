@@ -6,6 +6,7 @@ second_round_test_score, third_round_test_score
 
 With the help of nodejs and framework express created a end point for adding details of students 
 For add a new student in database we use a '/student' and sending a json format data like below 
+
 {
     "name": "Ram",
     "email": "ramdixit@gmail.com",
@@ -13,7 +14,9 @@ For add a new student in database we use a '/student' and sending a json format 
     "second_round": 7,
     "third_round": 10
 }
+
 After hit the end point with this format data we got a response like below
+
 {
   "_id": "60eb0d16d7727e94fe4c5736",
   "name": "Ram",
@@ -23,17 +26,21 @@ After hit the end point with this format data we got a response like below
   "third_round": 10,
   "__v": 0
 }
+
 The add student record is completed then we need to two more things to do get a maximum scored student and average of all round of test let see it.
 
 For find the maximum scored student data we have to hit the end point '/students/max-score' and when we hit request this end ponit we got a response with 
+
 {
   "name": "Vikas",
   "scored": 30
 }
+
 Well done! we got a maximum scored student whose name is Vikas and he got all 30 points in test congrats Vikas.
 
 Now we have to find average number of students in every round let see the performance the students
 For find that details we have to hit request to the end point '/students/avg-scores' and lets see what we got in response 
+
 {
   "first_round_avg": [
     {
