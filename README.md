@@ -100,11 +100,6 @@ table for store information of test round with column name test_id, first_round,
 my server i tried so many think those didn't solve my problem so after destroying whole day i decided to do it with mongoDB but i don't know nothing about 
 mongoDb but i caught uo with the docs and done it this way.
 
-i'm encounter with this error if you know solution about this please let me know
-![](images/error.jpeg)
-
-My code
-![]((images/code.jpeg)
 
 
 
